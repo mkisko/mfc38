@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C68" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Service" representedClassName=".Service" syncable="YES">
+        <attribute name="documentsText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lifeSituationText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="list" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizationText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentInfoText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceList" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="timeTermText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Service" positionX="-54" positionY="-9" width="128" height="165"/>
+    </elements>
+</model>

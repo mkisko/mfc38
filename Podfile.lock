@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - ImageSlideshow (1.2.0):
+    - ImageSlideshow/Core (= 1.2.0)
+  - ImageSlideshow/Core (1.2.0)
+  - MBProgressHUD (1.0.0)
+  - ObjectMapper (2.2.5)
+  - SCLAlertView (0.7.0)
+  - Spring (1.0.3)
+  - SwiftValidator (3.0.3)
+  - YandexMobileMetrica/Dynamic (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - GoogleMaps
+  - ImageSlideshow (~> 1.0)
+  - MBProgressHUD
+  - SCLAlertView
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftValidator
+  - YandexMobileMetrica/Dynamic
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  ImageSlideshow: c1395dcf33f7dba407fd21df0e8c315e8941e209
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftValidator: 0b6a48bf10364411b0d64c97f78665ff87ca9f8b
+  YandexMobileMetrica: c8e9050cd23b10dee4358bdf0a5142583a63995c
+
+PODFILE CHECKSUM: d03baa9c4ba3618a4f3d9425cb3fdd9bff69e9e5
+
+COCOAPODS: 1.2.0
