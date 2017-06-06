@@ -16,8 +16,11 @@ class AboutViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(AboutViewController.swiped))
+        
+        let swipeDown = UISwipeGestureRecognizer(target: self, action: #selector(RegViewController.swiped))
         swipeDown.direction = .down
+        self.view.addGestureRecognizer(swipeDown)
+        
         version.text = "Версия: \(versionSet())"
         
     }
