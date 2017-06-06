@@ -64,8 +64,6 @@ class DetailViewController: UIViewController, CLLocationManagerDelegate{
     @IBOutlet var weekDayColor: [UILabel]!
     @IBOutlet weak var addressLabel: UILabel!
     
-    
-    
     @IBAction func preReg(_ sender: UIButton) {
       //  self.dismiss(animated: true) {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "reg")

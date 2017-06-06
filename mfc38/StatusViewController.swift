@@ -195,6 +195,7 @@ class StatusViewController: UIViewController, UITextFieldDelegate {
         }
     }
 
+
     
     @IBAction func closeBtn(_ sender: UIButton) {
         swiped()

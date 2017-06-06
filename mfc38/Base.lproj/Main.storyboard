@@ -125,8 +125,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnu-O3-j8x" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="8" y="24" width="304" height="536"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="J8y-Zv-Flk">
-                                        <rect key="frame" x="34.5" y="151" width="235" height="234"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="J8y-Zv-Flk">
+                                        <rect key="frame" x="34.5" y="139.5" width="235" height="257"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGZ-aa-gYv">
                                                 <rect key="frame" x="0.0" y="0.0" width="235" height="34"/>
@@ -139,7 +139,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9v-aj-4Z4">
-                                                <rect key="frame" x="0.0" y="34" width="235" height="34"/>
+                                                <rect key="frame" x="0.0" y="33" width="235" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Отделы">
                                                     <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -149,7 +149,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umx-sG-BvN">
-                                                <rect key="frame" x="0.0" y="68" width="235" height="34"/>
+                                                <rect key="frame" x="0.0" y="66" width="235" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Новости">
                                                     <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -159,7 +159,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc5-Lu-y6T">
-                                                <rect key="frame" x="0.0" y="102" width="235" height="34"/>
+                                                <rect key="frame" x="0.0" y="99" width="235" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Контакты">
                                                     <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -169,7 +169,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMo-T4-u1N">
-                                                <rect key="frame" x="0.0" y="136" width="235" height="34"/>
+                                                <rect key="frame" x="0.0" y="132" width="235" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Запись на приём">
                                                     <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -179,7 +179,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPd-wb-vqj">
-                                                <rect key="frame" x="0.0" y="170" width="235" height="34"/>
+                                                <rect key="frame" x="0.0" y="165" width="235" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Статус заявления">
                                                     <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -189,7 +189,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D23-21-YoP">
-                                                <rect key="frame" x="0.0" y="204" width="235" height="30"/>
+                                                <rect key="frame" x="0.0" y="198" width="235" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="6QV-c6-3Wv"/>
                                                 </constraints>
@@ -199,6 +199,19 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="openESIA:" destination="BBA-6O-VOV" eventType="touchUpInside" id="UmQ-Zb-SlW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IId-a8-Znv">
+                                                <rect key="frame" x="0.0" y="227" width="235" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="lDB-Jq-0kK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="О программе">
+                                                    <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="VWt-am-feL" kind="presentation" modalPresentationStyle="currentContext" id="QMT-LC-eav"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -482,32 +495,26 @@
                                         <color key="textColor" red="0.77712780240000001" green="0.57815605400000003" blue="0.39008760450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Иван" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUe-8K-fp0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Иван" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUe-8K-fp0">
                                         <rect key="frame" x="8" y="34" width="288" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Иванович" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzg-sa-Mvz">
-                                        <rect key="frame" x="8" y="60" width="288" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="мы рады видеть вас по адресу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3D-zn-V3r">
-                                        <rect key="frame" x="8" y="86" width="288" height="18"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="мы будем рады видеть вас по адресу" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3D-zn-V3r">
+                                        <rect key="frame" x="8" y="68" width="288" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.77712780240000001" green="0.57815605400000003" blue="0.39008760450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Братск, ул Баркова д.43" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjP-1d-DNl">
-                                        <rect key="frame" x="8" y="112" width="288" height="18"/>
+                                        <rect key="frame" x="8" y="94" width="288" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="в понедельник 21 апреля, в 12:00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evd-gh-HcX">
-                                        <rect key="frame" x="8" y="138" width="288" height="18"/>
+                                        <rect key="frame" x="8" y="120" width="288" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -541,15 +548,14 @@
                                     <constraint firstItem="Evd-gh-HcX" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="DYA-1A-WMG"/>
                                     <constraint firstItem="tj1-cN-h7m" firstAttribute="top" secondItem="dRD-gu-ccC" secondAttribute="bottom" constant="8" id="DgP-qU-4s1"/>
                                     <constraint firstAttribute="bottom" secondItem="LgK-J1-uGu" secondAttribute="bottom" constant="8" id="FnV-M8-Odz"/>
+                                    <constraint firstItem="N3D-zn-V3r" firstAttribute="top" secondItem="JUe-8K-fp0" secondAttribute="bottom" constant="16" id="K2q-uN-cnU"/>
                                     <constraint firstAttribute="trailing" secondItem="Evd-gh-HcX" secondAttribute="trailing" constant="8" id="KuV-mi-GAR"/>
                                     <constraint firstAttribute="trailing" secondItem="y2d-9A-p7b" secondAttribute="trailing" constant="8" id="MRa-dl-AfP"/>
                                     <constraint firstItem="tjP-1d-DNl" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="PUQ-jk-Qbu"/>
                                     <constraint firstAttribute="trailing" secondItem="O0g-Kr-vY1" secondAttribute="trailing" constant="8" id="UIM-kA-S0e"/>
                                     <constraint firstItem="dRD-gu-ccC" firstAttribute="centerY" secondItem="AlO-Pg-ENz" secondAttribute="centerY" id="VXb-Zl-p1P"/>
-                                    <constraint firstItem="rzg-sa-Mvz" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="WtR-fQ-fay"/>
                                     <constraint firstItem="y2d-9A-p7b" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="deq-Wj-BjC"/>
                                     <constraint firstItem="O0g-Kr-vY1" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="eFA-R9-mR8"/>
-                                    <constraint firstItem="rzg-sa-Mvz" firstAttribute="top" secondItem="JUe-8K-fp0" secondAttribute="bottom" constant="8" id="f5i-OR-M9I"/>
                                     <constraint firstItem="lTa-xY-7zG" firstAttribute="top" secondItem="AlO-Pg-ENz" secondAttribute="top" constant="8" id="ftQ-kH-03R"/>
                                     <constraint firstAttribute="trailing" secondItem="tj1-cN-h7m" secondAttribute="trailing" constant="8" id="htR-9h-FDU"/>
                                     <constraint firstAttribute="trailing" secondItem="N3D-zn-V3r" secondAttribute="trailing" constant="8" id="hxo-er-w0m"/>
@@ -565,8 +571,6 @@
                                     <constraint firstItem="LgK-J1-uGu" firstAttribute="top" secondItem="y2d-9A-p7b" secondAttribute="bottom" constant="8" id="tLe-nH-Mbc"/>
                                     <constraint firstItem="JUe-8K-fp0" firstAttribute="leading" secondItem="AlO-Pg-ENz" secondAttribute="leading" constant="8" id="uLD-u6-oZH"/>
                                     <constraint firstAttribute="trailing" secondItem="lTa-xY-7zG" secondAttribute="trailing" constant="8" id="wEw-QK-dn4"/>
-                                    <constraint firstAttribute="trailing" secondItem="rzg-sa-Mvz" secondAttribute="trailing" constant="8" id="wHx-so-VEq"/>
-                                    <constraint firstItem="N3D-zn-V3r" firstAttribute="top" secondItem="rzg-sa-Mvz" secondAttribute="bottom" constant="8" id="x5n-HD-Lpf"/>
                                     <constraint firstAttribute="trailing" secondItem="tjP-1d-DNl" secondAttribute="trailing" constant="8" id="z9C-Eu-trh"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -574,7 +578,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="AlO-Pg-ENz" firstAttribute="leading" secondItem="LhN-Ih-P9k" secondAttribute="leading" constant="8" id="GFU-C4-rVc"/>
                             <constraint firstItem="hRj-JU-GTg" firstAttribute="top" secondItem="AlO-Pg-ENz" secondAttribute="bottom" constant="8" id="PeT-WR-XTL"/>
@@ -587,13 +591,97 @@
                         <outlet property="address" destination="tjP-1d-DNl" id="eWI-fe-YOD"/>
                         <outlet property="code" destination="dRD-gu-ccC" id="soF-F3-gYT"/>
                         <outlet property="firstName" destination="JUe-8K-fp0" id="NBT-7P-zZL"/>
-                        <outlet property="secondName" destination="rzg-sa-Mvz" id="f4a-L5-Jja"/>
                         <outlet property="time" destination="Evd-gh-HcX" id="U0O-jF-tK0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7uj-pC-aih" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4288" y="-113"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="24O-Lj-gzy">
+            <objects>
+                <viewController id="VWt-am-feL" customClass="AboutViewController" customModule="mfc38" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KDG-6Y-HUv"/>
+                        <viewControllerLayoutGuide type="bottom" id="OET-MG-Xsj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kjC-I7-ldN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-Vb-mE5">
+                                <rect key="frame" x="8" y="24" width="304" height="536"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJU-RZ-aUM">
+                                        <rect key="frame" x="8" y="498" width="288" height="30"/>
+                                        <state key="normal" title="Закрыть">
+                                            <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="close:" destination="VWt-am-feL" eventType="touchUpInside" id="taj-u9-AWL"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nn-Vi-4YV">
+                                        <rect key="frame" x="8" y="222" width="288" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8NS-RA-BJK">
+                                        <rect key="frame" x="8" y="253" width="288" height="30"/>
+                                        <state key="normal" title="Оценить приложение">
+                                            <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="rateApp:" destination="VWt-am-feL" eventType="touchUpInside" id="Ilm-ew-5bd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnv-cd-7M4">
+                                        <rect key="frame" x="8" y="291" width="288" height="30"/>
+                                        <state key="normal" title="Написать разработчику">
+                                            <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="emailDev:" destination="VWt-am-feL" eventType="touchUpInside" id="pZ4-66-6l8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Wnv-cd-7M4" secondAttribute="trailing" constant="8" id="0dM-Fg-oIc"/>
+                                    <constraint firstItem="0nn-Vi-4YV" firstAttribute="leading" secondItem="3dV-Vb-mE5" secondAttribute="leading" constant="8" id="5OS-nM-lv5"/>
+                                    <constraint firstAttribute="trailing" secondItem="8NS-RA-BJK" secondAttribute="trailing" constant="8" id="CSb-1n-zOr"/>
+                                    <constraint firstItem="8NS-RA-BJK" firstAttribute="top" secondItem="0nn-Vi-4YV" secondAttribute="bottom" constant="8" id="GtF-si-lRa"/>
+                                    <constraint firstItem="8NS-RA-BJK" firstAttribute="leading" secondItem="3dV-Vb-mE5" secondAttribute="leading" constant="8" id="MX0-9C-awE"/>
+                                    <constraint firstItem="Wnv-cd-7M4" firstAttribute="top" secondItem="8NS-RA-BJK" secondAttribute="bottom" constant="8" id="OyQ-Sw-QDK"/>
+                                    <constraint firstAttribute="trailing" secondItem="0nn-Vi-4YV" secondAttribute="trailing" constant="8" id="e4M-oT-Knk"/>
+                                    <constraint firstAttribute="trailing" secondItem="iJU-RZ-aUM" secondAttribute="trailing" constant="8" id="htk-ZP-cIv"/>
+                                    <constraint firstItem="8NS-RA-BJK" firstAttribute="centerY" secondItem="3dV-Vb-mE5" secondAttribute="centerY" id="l1e-YY-Rht"/>
+                                    <constraint firstAttribute="bottom" secondItem="iJU-RZ-aUM" secondAttribute="bottom" constant="8" id="osG-7j-8Qd"/>
+                                    <constraint firstItem="Wnv-cd-7M4" firstAttribute="leading" secondItem="3dV-Vb-mE5" secondAttribute="leading" constant="8" id="ptY-q6-uY0"/>
+                                    <constraint firstItem="iJU-RZ-aUM" firstAttribute="leading" secondItem="3dV-Vb-mE5" secondAttribute="leading" constant="8" id="xQX-WL-ts7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3dV-Vb-mE5" firstAttribute="leading" secondItem="kjC-I7-ldN" secondAttribute="leading" constant="8" id="SaO-bz-vPz"/>
+                            <constraint firstAttribute="trailing" secondItem="3dV-Vb-mE5" secondAttribute="trailing" constant="8" id="Scr-BN-g8k"/>
+                            <constraint firstItem="OET-MG-Xsj" firstAttribute="top" secondItem="3dV-Vb-mE5" secondAttribute="bottom" constant="8" id="gqE-rL-JJw"/>
+                            <constraint firstItem="3dV-Vb-mE5" firstAttribute="top" secondItem="kjC-I7-ldN" secondAttribute="top" constant="24" id="qjH-Oj-tRV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="version" destination="0nn-Vi-4YV" id="fXS-Xv-Rje"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5CX-TC-BYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="-796"/>
         </scene>
         <!--Доступное время-->
         <scene sceneID="GfQ-Pi-bO1">
@@ -895,8 +983,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="72" sectionHeaderHeight="28" sectionFooterHeight="28" id="eUP-e3-ukX">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="72" id="rEx-rC-jd1" customClass="NewsTableViewCell" customModule="mfc38" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="72"/>
@@ -945,7 +1033,7 @@
                                         <constraint firstItem="KdD-vQ-kvx" firstAttribute="leading" secondItem="3PN-wu-3hu" secondAttribute="leading" constant="8" id="rsI-XI-vpt"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dateNewsLabel" destination="VKL-gJ-m6g" id="1lm-Z6-hSo"/>
                                     <outlet property="titleNews" destination="aXq-61-Rq4" id="ULW-xy-SwQ"/>
@@ -1203,8 +1291,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="68" sectionHeaderHeight="28" sectionFooterHeight="28" id="RqP-E6-F7O">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="68" id="fo1-zc-wab" customClass="TypeServiceTableViewCell" customModule="mfc38" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="68"/>
@@ -1242,7 +1330,7 @@
                                         <constraint firstItem="zg4-LI-TXa" firstAttribute="leading" secondItem="jge-6h-uLt" secondAttribute="leading" constant="8" id="dAt-h3-9bI"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="serviceText" destination="JCL-6G-uah" id="zEQ-Q8-bUL"/>
                                     <segue destination="W4X-6O-AfZ" kind="show" identifier="serviceList" id="cfQ-ZK-e2E"/>
@@ -1274,9 +1362,9 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="gLK-lB-5CK">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="serviceCell" id="EFY-If-WE2" customClass="ServiceListTableViewCell" customModule="mfc38" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
@@ -1314,7 +1402,7 @@
                                         <constraint firstAttribute="trailing" secondItem="axi-vo-VB6" secondAttribute="trailing" constant="-24" id="atS-e6-gSG"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="serviceName" destination="up0-iz-MVd" id="MNP-j4-E8B"/>
                                     <segue destination="onn-6l-WWV" kind="show" identifier="segueList" id="ELx-pb-fsw"/>
@@ -1339,9 +1427,9 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="bLM-eP-LkH">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="serviceCell" rowHeight="100" id="E7a-yH-wFP" customClass="ServiceTextTableViewCell" customModule="mfc38" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="100"/>
@@ -1381,7 +1469,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstItem="B98-a6-tud" firstAttribute="leading" secondItem="tul-hr-Nc5" secondAttribute="leadingMargin" id="0zp-KA-AxW"/>
                                         <constraint firstItem="B98-a6-tud" firstAttribute="trailing" secondItem="tul-hr-Nc5" secondAttribute="trailingMargin" id="175-FU-yfC"/>
@@ -2330,7 +2418,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -2423,7 +2511,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -2446,7 +2534,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -2476,6 +2564,6 @@
         <image name="лого" width="625" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PI4-gW-Dsv"/>
+        <segue reference="DJm-Nh-01b"/>
     </inferredMetricsTieBreakers>
 </document>

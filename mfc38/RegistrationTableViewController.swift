@@ -15,7 +15,10 @@ class RegistrationTableViewController: UITableViewController {
     let url = "\(urlConstraints().coreURL)getServerList"
     private let dataSource = RegistrationDataSource()
     
+    
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         getServerList()
         tableView.estimatedRowHeight = 44

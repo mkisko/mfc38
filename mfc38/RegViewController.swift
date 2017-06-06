@@ -24,7 +24,7 @@ class RegViewController: UIViewController {
     var codeText = String()
     
     @IBOutlet weak var firstName: UILabel!
-    @IBOutlet weak var secondName: UILabel!
+ //   @IBOutlet weak var secondName: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var code: UILabel!
@@ -48,8 +48,8 @@ class RegViewController: UIViewController {
         ViewCard.layer.shadowOffset = CGSize.zero
         ViewCard.layer.shadowRadius = 3
         
-        firstName.text = firstNameText
-        secondName.text = secondNameText
+        firstName.text = "\(firstNameText) \(secondNameText)"
+        //secondName.text = secondNameText
         address.text = addressText
         time.text = timeText
         code.text = codeText

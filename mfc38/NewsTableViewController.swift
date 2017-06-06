@@ -10,28 +10,6 @@ import UIKit
 import MBProgressHUD
 import YandexMobileMetrica
 
-
-extension UINavigationBar {
-    func removeShadow() {
-        if let view = removeShadowFromView(view: self) {
-            view.isHidden = true
-        }
-    }
-    
-    func removeShadowFromView(view: UIView) -> UIImageView? {
-        if (view.isKind(of: UIImageView.self) && view.bounds.size.height <= 1) {
-            return view as? UIImageView
-        }
-        
-        for subView in view.subviews {
-            if let imageView = removeShadowFromView(view: subView as UIView) {
-                return imageView
-            }
-        }
-        return nil
-    }
-}
-
 class NewsTableViewController: UITableViewController, XMLParserDelegate {
     
     var dateStr = String()
@@ -48,10 +26,13 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
     let loadingView = UIView()
     let spinner = UIActivityIndicatorView()
     let loadingLabel = UILabel()
-    
+    let searchController = UISearchController(searchResultsController: nil)
     var newsText = String()
     
     override func viewDidLoad() {
+        
+        
+        
         
                 tableView.estimatedRowHeight = 44
         tableView.rowHeight = UITableViewAutomaticDimension
@@ -73,6 +54,11 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
         self.refreshControl?.tintColor = UIColor(colorLiteralRed: 218/255, green: 94/255, blue: 60/255, alpha: 1)
         self.refreshControl?.addTarget(self, action: #selector(NewsTableViewController.refresh(_:)), for: UIControlEvents.valueChanged)
         
+     //   searchController.searchResultsUpdater = self as! UISearchResultsUpdating
+//        searchController.dimsBackgroundDuringPresentation = false
+//        definesPresentationContext = true
+//        tableView.tableHeaderView = searchController.searchBar
+//        
         
         super.viewDidLoad()
     }
@@ -88,9 +74,6 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        
-        self.navigationController?.navigationBar.removeShadow()
-        
 
         YMMYandexMetrica.reportEvent("Список новостей") { (error) in
         }

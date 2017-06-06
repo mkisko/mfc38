@@ -30,11 +30,11 @@ class OfficeTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if UIDevice.current.userInterfaceIdiom == .pad {
             sectionName = ["", "Другие отделы:"]
         } else {
-
+            
             sectionName = ["Ближайший к вам:", "Другие отделы:"]
         }
         

@@ -47,6 +47,7 @@
 		D8530C601EAD9E33006A5660 /* ServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8530C5F1EAD9E33006A5660 /* ServerTableViewCell.swift */; };
 		D8530C621EADA102006A5660 /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8530C611EADA102006A5660 /* TypeTableViewCell.swift */; };
 		D8530C641EADA485006A5660 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8530C631EADA485006A5660 /* TimeTableViewCell.swift */; };
+		D856F5501EE65FA8007AA2B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D856F54F1EE65FA8007AA2B0 /* AboutViewController.swift */; };
 		D8C95C4A1E9CC4D90091A9CC /* ServiceTreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C95C491E9CC4D90091A9CC /* ServiceTreeTableViewController.swift */; };
 		D8C95C4C1E9DEE690091A9CC /* TimeSlotTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C95C4B1E9DEE690091A9CC /* TimeSlotTableViewController.swift */; };
 		D8C95C4E1E9E28DA0091A9CC /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C95C4D1E9E28DA0091A9CC /* SendViewController.swift */; };
@@ -119,6 +120,7 @@
 		D8530C5F1EAD9E33006A5660 /* ServerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTableViewCell.swift; sourceTree = "<group>"; };
 		D8530C611EADA102006A5660 /* TypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
 		D8530C631EADA485006A5660 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		D856F54F1EE65FA8007AA2B0 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D8C95C491E9CC4D90091A9CC /* ServiceTreeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTreeTableViewController.swift; sourceTree = "<group>"; };
 		D8C95C4B1E9DEE690091A9CC /* TimeSlotTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSlotTableViewController.swift; sourceTree = "<group>"; };
 		D8C95C4D1E9E28DA0091A9CC /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				D8D2F2381EA5C99E00CBF072 /* MyRegTableViewController.swift */,
 				D8D2F23A1EA88ADE00CBF072 /* RegViewController.swift */,
 				D8CFF3461ED552F30083DAF2 /* MainViewController.swift */,
+				D856F54F1EE65FA8007AA2B0 /* AboutViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				D8530C601EAD9E33006A5660 /* ServerTableViewCell.swift in Sources */,
 				CF3772561E0A59260050EA55 /* List.swift in Sources */,
 				CFECCD611E066BD100EC5A24 /* StatusViewController.swift in Sources */,
+				D856F5501EE65FA8007AA2B0 /* AboutViewController.swift in Sources */,
 				CFACD5A91D34974800F328A6 /* Reachability.swift in Sources */,
 				CFCA6E361D1CB6EB0061659D /* OfficeTableViewCell.swift in Sources */,
 				CF23B84B1E650036009AC54D /* ServiceTextTableViewController.swift in Sources */,
