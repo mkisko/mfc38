@@ -18,8 +18,7 @@ class ContactsTableViewController: UITableViewController {
         
         YMMYandexMetrica.reportEvent("Контакты") { (error) in
         }
-        
-        version.text = versionSet()
+
         navigationController?.navigationBar.isHidden = false
     }
     
@@ -33,16 +32,10 @@ class ContactsTableViewController: UITableViewController {
         }
     }
     
-    func versionSet() -> String {
-        let dictionary = Bundle.main.infoDictionary!
-        let version = dictionary["CFBundleShortVersionString"] as! String
-        return "\(version)"
-    }
-    
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         switch indexPath.row {
-        case 1:
+        case 0:
             let alertController = UIAlertController(title: "Позвонить", message: "Вы хотите позвонить в центр \"Мои Документы\"?", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "Да", style: UIAlertActionStyle.default) {
@@ -63,7 +56,7 @@ class ContactsTableViewController: UITableViewController {
             
             self.present(alertController, animated: true, completion: nil)
             
-        case 2:
+        case 1:
             let alertController = UIAlertController(title: "Позвонить", message: "Вы хотите позвонить в центр \"Мои Документы\"?", preferredStyle: .alert)
             
             let okAction = UIAlertAction(title: "Да", style: UIAlertActionStyle.default) {
@@ -83,23 +76,23 @@ class ContactsTableViewController: UITableViewController {
             alertController.addAction(okAction)
             
             self.present(alertController, animated: true, completion: nil)
-        case 3:
+        case 2:
             let email = "mailto://info@mfc38.ru";
             let url:URL = URL(string:email)!;
             UIApplication.shared.openURL(url);
-        case 4:
+        case 3:
             let www = "http://mfc38.ru";
             let url:URL = URL(string:www)!;
             UIApplication.shared.openURL(url);
-        case 5:
+        case 4:
             let vk = "https://vk.com/mfcirkutsk";
             let url:URL = URL(string:vk)!;
             UIApplication.shared.openURL(url);
-        case 6:
+        case 5:
             let tw = "https://twitter.com/mfcirkutsk";
             let url:URL = URL(string:tw)!;
             UIApplication.shared.openURL(url);
-        case 7:
+        case 6:
             let fb = "https://www.facebook.com/mfcirkutsk";
             let url:URL = URL(string:fb)!;
             UIApplication.shared.openURL(url);

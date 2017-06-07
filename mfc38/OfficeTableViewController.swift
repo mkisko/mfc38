@@ -90,29 +90,29 @@ class OfficeTableViewController: UITableViewController {
             office = self.office.dist[0]
         }
         
-        let queue = DispatchQueue.global(qos: .utility)
+        // let queue = DispatchQueue.global(qos: .utility)
         
-        queue.sync {
-            
-            if !office.eo {
-                cell.img1.alpha = 0.3
-            }
-            if !office.ik {
-                cell.img2.alpha = 0.3
-            }
-            
-            if !office.atm {
-                cell.img3.alpha = 0.3
-            }
-            
-            if !office.idea2business {
-                cell.img4.alpha = 0.3
-            }
-            
-            if !office.photobootch {
-                cell.img5.alpha = 0.3
-            }
+        //   queue.sync {
+        
+        if !office.eo {
+            cell.img1.alpha = 0.5
         }
+        if !office.ik {
+            cell.img2.alpha = 0.5
+        }
+        
+        if !office.atm {
+            cell.img3.alpha = 0.5
+        }
+        
+        if !office.idea2business {
+            cell.img4.alpha = 0.5
+        }
+        
+        if !office.photobootch {
+            cell.img5.alpha = 0.5
+        }
+        // }
         
         cell.addressLabel.text = office.address
         cell.areaLabel.text = office.area
