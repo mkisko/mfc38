@@ -31,7 +31,8 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
     
     override func viewDidLoad() {
         
-        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(named: "icon"), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage(named: "icon")
         
         
                 tableView.estimatedRowHeight = 44

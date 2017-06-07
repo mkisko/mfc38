@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gvX-VN-Ykt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gvX-VN-Ykt">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -640,7 +640,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnv-cd-7M4">
-                                        <rect key="frame" x="8" y="299" width="288" height="30"/>
+                                        <rect key="frame" x="8" y="291" width="288" height="30"/>
                                         <state key="normal" title="Написать разработчику">
                                             <color key="titleColor" red="0.87567108869999999" green="0.31027093529999999" blue="0.18592992420000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -656,7 +656,7 @@
                                     <constraint firstAttribute="trailing" secondItem="8NS-RA-BJK" secondAttribute="trailing" constant="8" id="CSb-1n-zOr"/>
                                     <constraint firstItem="8NS-RA-BJK" firstAttribute="top" secondItem="0nn-Vi-4YV" secondAttribute="bottom" constant="16" id="GtF-si-lRa"/>
                                     <constraint firstItem="8NS-RA-BJK" firstAttribute="leading" secondItem="3dV-Vb-mE5" secondAttribute="leading" constant="8" id="MX0-9C-awE"/>
-                                    <constraint firstItem="Wnv-cd-7M4" firstAttribute="top" secondItem="8NS-RA-BJK" secondAttribute="bottom" constant="16" id="OyQ-Sw-QDK"/>
+                                    <constraint firstItem="Wnv-cd-7M4" firstAttribute="top" secondItem="8NS-RA-BJK" secondAttribute="bottom" constant="8" id="OyQ-Sw-QDK"/>
                                     <constraint firstAttribute="trailing" secondItem="0nn-Vi-4YV" secondAttribute="trailing" constant="8" id="e4M-oT-Knk"/>
                                     <constraint firstAttribute="trailing" secondItem="iJU-RZ-aUM" secondAttribute="trailing" constant="8" id="htk-ZP-cIv"/>
                                     <constraint firstItem="8NS-RA-BJK" firstAttribute="centerY" secondItem="3dV-Vb-mE5" secondAttribute="centerY" id="l1e-YY-Rht"/>
@@ -969,7 +969,7 @@
         <scene sceneID="GHy-9m-RR3">
             <objects>
                 <splitViewController id="gvX-VN-Ykt" sceneMemberID="viewController">
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <connections>
                         <segue destination="coG-au-4Qz" kind="relationship" relationship="masterViewController" id="q3p-8q-Ib6"/>
                     </connections>
@@ -2566,6 +2566,6 @@
         <image name="лого" width="625" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DJm-Nh-01b"/>
+        <segue reference="PI4-gW-Dsv"/>
     </inferredMetricsTieBreakers>
 </document>
